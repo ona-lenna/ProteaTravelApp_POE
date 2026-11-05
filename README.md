@@ -37,6 +37,11 @@ The project has **54 automated unit tests** and **5 automated Room (database) te
 | `app/src/test/.../i18n/StringsTest.kt` | 7 | English, isiZulu and Afrikaans are all complete and genuinely different |
 | `app/src/androidTest/.../RoomOfflineTest.kt` | 5 | offline flight cache and the queue of bookings/alerts waiting to sync (needs an emulator) |
 
+Picture of unit test for modelsTest
+<img width="1920" height="1080" alt="Screenshot 2026-11-05 105423" src="https://github.com/user-attachments/assets/b1edb11d-7637-41b1-b224-a678193e535f" />
+Picture of 
+
+
 **How to run them**
 1. In Android Studio switch the Project panel to the **Project** view.
 2. Right-click `app/src/test/java` and choose **Run 'Tests in ...'**. (Or run `./gradlew testDebugUnitTest` in a terminal.)
