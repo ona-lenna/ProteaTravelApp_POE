@@ -39,10 +39,14 @@ The project has **54 automated unit tests** and **5 automated Room (database) te
 
 Picture of unit test for modelsTest
 <img width="1920" height="1080" alt="Screenshot 2026-11-05 105423" src="https://github.com/user-attachments/assets/b1edb11d-7637-41b1-b224-a678193e535f" />
-Picture of 
+Picture of  PricingTest
+<img width="1920" height="1080" alt="Screenshot 2026-11-05 105749" src="https://github.com/user-attachments/assets/630abdd5-89e4-4190-9a5a-49718d275d0d" />
+
+
 
 
 **How to run them**
+
 1. In Android Studio switch the Project panel to the **Project** view.
 2. Right-click `app/src/test/java` and choose **Run 'Tests in ...'**. (Or run `./gradlew testDebugUnitTest` in a terminal.)
 3. The **Run** panel at the bottom shows a green tick for every passing test. The HTML report is at `app/build/reports/tests/testDebugUnitTest/index.html`.
