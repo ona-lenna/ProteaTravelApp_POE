@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Each user can only read/write their own profile, bookings and alerts
+    match /users/{uid}/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+    // Flight catalogue: any signed-in user can read.
+    // Write is open to signed-in users ONLY so the app can seed demo data.
+    // After the first run, change this to: allow write: if false;
+    match /flights/{id} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null;
+    }
+  }
+}

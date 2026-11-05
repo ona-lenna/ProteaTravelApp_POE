@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Protea Travels</string>
+
+    <!-- Facebook Login placeholders. Create an app at developers.facebook.com,
+         then replace these two values (see README section 10). -->
+    <string name="facebook_app_id">000000000000000</string>
+    <string name="facebook_client_token">REPLACE_WITH_CLIENT_TOKEN</string>
+    <string name="fb_login_protocol_scheme">fb000000000000000</string>
+
+    <!-- Google Sign-In: the "Web client ID" Firebase generates automatically
+         once Google is enabled as a sign-in provider (see README section 10). -->
+    <string name="google_web_client_id">REPLACE_WITH_WEB_CLIENT_ID.apps.googleusercontent.com</string>
+</resources>
